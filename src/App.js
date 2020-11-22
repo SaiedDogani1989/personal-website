@@ -11,6 +11,7 @@ function App() {
     <div>
     <Navbar />
     <Switch>
+    <Route path="/personal-website/" component = {HomePage} />
     <Route path="/homepage" component = {HomePage} />
     <Route path="/aboutMe" component = {AboutMe} />
     <Route path="/contact" component = {Contact} />
