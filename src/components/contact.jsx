@@ -30,7 +30,7 @@ class Contact extends Form {
                             </div>
                         </div>
                         <div className="col-lg-8 col-md-8 middle">
-                            <form action="mailto:saeid.dogani1989@gmail.com" method="POST">
+                            <form action="mailto:saeid.dogani1989@gmail.com" method="POST" encType="multipart/form-data">
                                 {this.renderInput('name', 'Name:')}
                                 {this.renderInput('lastName', 'Last Name:')}
                                 {this.renderInput('email', 'Email Address:', 'email')}
