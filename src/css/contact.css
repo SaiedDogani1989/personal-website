@@ -9,7 +9,7 @@
   margin-top: 70px;
 }
 .side-box {
-  background-color: #373a40;
+  background-color: #3c4149;
   color: white;
   padding: 1%;
   border-top-left-radius: 0.5rem;
@@ -24,6 +24,9 @@
 }
 .contact-info h2 {
   margin-bottom: 10%;
+}
+.btn-color{
+  background-color: #3c4149;
 }
 
 .info {
