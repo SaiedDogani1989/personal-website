@@ -9,9 +9,9 @@ const Profile = () => {
             <div className="title bg-light">
                 <h2>Profile</h2>
             </div>
-            <section id="profile" class="container-fluid">
+            <section id="profile" className="container-fluid">
 
-                <div class="col-12 profile-content">
+                <div className="profile-content">
                     <img src={Saeid} alt="profile-pic" className="profile-img" />
                     <h2 className="profile-text">Hello I'am Saeid Dogani</h2>
                     <h4 className="profile-text-h4 ">Front-End Web Developer</h4>
