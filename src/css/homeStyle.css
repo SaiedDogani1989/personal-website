@@ -1,0 +1,81 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  background-color: #373a40;
+}
+
+/* ///////////////////header////////////////////// */
+#header {
+  margin-top: 50px;
+  padding: 22% 11%;
+  background-image: url(https://picjumbo.com/wp-content/uploads/technology-2210x1473.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+/* header-image */
+
+/* header-text */
+.headerContent {
+  background-color: #d6d6d6;
+  opacity: 0.5;
+  border-radius: 100%;
+  text-align: center;
+  color: #7e7474;
+}
+.headerContent h2 {
+  font-weight: 900;
+  line-height: 1;
+  font-size: 1.75rem;
+}
+
+.ele {
+  animation: 3s fadeIn;
+  animation-fill-mode: forwards;
+
+  visibility: hidden;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 0.5;
+  }
+}
+@media (max-width: 767px) {
+  #header {
+    margin-top: 50px;
+    padding: 60% 11%;
+  }
+  .headerContent {
+    background-color: #d6d6d6;
+    opacity: 0.5;
+    border-radius: 10%;
+    font-size: 1.5rem;
+  }
+  .headerContent h2 {
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+}

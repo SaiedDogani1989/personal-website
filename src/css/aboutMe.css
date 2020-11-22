@@ -1,0 +1,12 @@
+#about-me {
+  margin-top: 50px;
+}
+
+.content p:first-child {
+  margin-top: 20px;
+}
+
+.certificate-img {
+  width: 50%;
+  margin: 20px 0px 30px;
+}

@@ -1,0 +1,14 @@
+#footer {
+  background: rgb(129, 127, 127);
+  padding: 7% 5%;
+}
+
+.footer-container {
+  text-align: center;
+  color: #fff;
+}
+
+.footer-link {
+  color: #fff;
+  margin: 10px 30px;
+}
