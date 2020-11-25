@@ -1,11 +1,15 @@
 import React from 'react';
+import Footer from '../common/footer/footer';
 import "../css/headerStyle.css"
 
 
 const Cv = () => {
-    return ( 
-  <h1>CV</h1>
-     );
+  return (
+    <React.Fragment>
+    <h1 className="heading">Preparing</h1>
+    <Footer />
+    </React.Fragment>
+  );
 }
- 
+
 export default Cv;
