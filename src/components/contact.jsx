@@ -20,10 +20,10 @@ class Contact extends Form {
     render() {
         return (
             <React.Fragment>
-                <div class="container mt">
+                <div className="container mt">
                     <div className="row">
-                        <div class="side-box col-lg-3 col-md-3 contact">
-                            <div class="contact-info">
+                        <div className="side-box col-lg-3 col-md-3 contact">
+                            <div className="contact-info">
                                 <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image" />
                                 <h2>Contact Me</h2>
                                 <h4>I would love to hear from you !</h4>

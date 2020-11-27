@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import Footer from '../common/footer/footer';
-import Html from "./html.jpg"
-import JavaScript from "./javaScript.jpg"
+// import Html from "./html.jpg"
+// import JavaScript from "./javaScript.jpg"
 import "../css/aboutMe.css"
-
-import _ from "lodash"
 
 class AboutMe extends Component {
 
@@ -12,7 +10,9 @@ class AboutMe extends Component {
         return (
 
             <React.Fragment>
-                <h1 className="heading">Preparing</h1>
+                <div className="container">
+                    <h1 className="heading">Preparing</h1>
+                </div>
                 {/* <section id="about-me" class="container-fluid bg-light">
                     <div class="row">
                         <div class="col-lg-5 content">

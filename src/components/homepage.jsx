@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../common/footer/footer';
 import Profile from '../common/profile';
-import Skill from '../common/skills/skills';
+// import Skill from '../common/skills/skills';
 import "../css/homeStyle.css"
 const HomePage = () => {
     return (
