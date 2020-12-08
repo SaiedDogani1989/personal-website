@@ -13,7 +13,7 @@ const Profile = () => {
 
                 <div className="profile-content">
                     <img src={Saeid} alt="profile-pic" className="profile-img" />
-                    <h2 className="profile-text">Hello I'am Saeid Dogani</h2>
+                    <h2 className="profile-text">Hello I am Saeid Dogani</h2>
                     <h4 className="profile-text-h4 ">Front-End Web Developer</h4>
                     <h5 className="profile-text-h5 ">I Live in Vancouver Canada</h5>
                 </div>

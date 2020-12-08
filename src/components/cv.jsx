@@ -6,8 +6,10 @@ import "../css/headerStyle.css"
 const Cv = () => {
   return (
     <React.Fragment>
-    <h1 className="heading">Preparing</h1>
-    <Footer />
+      <div className="container">
+        <h1 className="heading">Preparing</h1>
+      </div>
+      <Footer />
     </React.Fragment>
   );
 }
