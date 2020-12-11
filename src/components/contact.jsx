@@ -3,6 +3,7 @@ import Joi from 'joi-browser'
 import "../css/contact.css"
 import Form from './contact/form';
 import Footer from '../common/footer/footer';
+import Navbar from './navbar';
 
 class Contact extends Form {
     state = {
@@ -20,6 +21,7 @@ class Contact extends Form {
     render() {
         return (
             <React.Fragment>
+                <Navbar />
                 <div className="container mt">
                     <div className="row">
                         <div className="side-box col-lg-3 col-md-3 contact">

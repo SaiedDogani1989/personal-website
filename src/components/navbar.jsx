@@ -8,7 +8,7 @@ class Navbar extends Component {
         const { handleBlur } = this.props
 
         return (<div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top text-center">
+            <nav className="navbar navbar-expand-lg navbar-dark text-center">
                 <Link className="navbar-brand" to="/personal-website/"><i class="fas fa-home"></i></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false"
