@@ -1,0 +1,37 @@
+.skill-img {
+  width: 80%;
+}
+.carousel {
+  align-items: center;
+}
+#workSample {
+  padding: 8% 8%;
+}
+.title {
+  border-radius: 1px;
+  color: #7e7474;
+  text-align: center;
+  padding: 1%;
+  margin: 2px 0 2px 0;
+}
+
+.workSample-url {
+  padding: 3% 5%;
+}
+.workSample-url li {
+  margin-top: 20px;
+}
+.workSample-link {
+  color: red;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+@media (max-width: 767px) {
+  .skill-img {
+    width: 100%;
+  }
+  #workSample {
+    padding: 6% 1%;
+  }
+}

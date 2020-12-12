@@ -3,7 +3,7 @@ import HomePage from './components/homepage';
 import { Route, Switch } from 'react-router-dom';
 import AboutMe from './components/aboutMe';
 import Contact from './components/contact';
-import Cv from './components/cv';
+import WorkSample from './components/workSample';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route path="/personal-website/" component={HomePage} />
         <Route path="/aboutMe" component={AboutMe} />
         <Route path="/contact" component={Contact} />
-        <Route path="/cv" component={Cv} />
+        <Route path="/workSample" component={WorkSample} />
       </Switch>
     </div>
   );

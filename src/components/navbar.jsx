@@ -5,16 +5,13 @@ import { Link } from 'react-router-dom';
 class Navbar extends Component {
 
     render() {
-        const { handleBlur } = this.props
 
         return (<div>
-            <nav className="navbar navbar-expand-lg navbar-dark text-center">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-center">
                 <Link className="navbar-brand" to="/personal-website/"><i class="fas fa-home"></i></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation" handleBlur={handleBlur}
-
-                >
+                    aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
@@ -27,25 +24,12 @@ class Navbar extends Component {
                             <Link className="nav-link" to="../contact/contact">Contact Me</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/cv">CV</Link>
+                            <Link className="nav-link" to="/workSample">Work sample</Link>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>);
-    }
-    handleBlur = (e) => {
-        // firefox onBlur issue workaround
-        if (e.nativeEvent.explicitOriginalTarget &&
-            e.nativeEvent.explicitOriginalTarget === e.nativeEvent.originalTarget) {
-            return;
-        }
-
-        if (this.state.show) {
-            setTimeout(() => {
-                this.setState({ show: false });
-            }, 200);
-        }
     }
 }
 

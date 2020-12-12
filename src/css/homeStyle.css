@@ -7,20 +7,18 @@ a {
   text-decoration: none;
 }
 
-section {
-  background-color: #373a40;
-}
 .navbar {
-  background-color: #515153;
-  opacity: 0.75;
+  background-color: #635858;
+  opacity: 0.5;
 }
 .nav-item {
   margin-left: 30px;
 }
+
 /* ///////////////////header////////////////////// */
 #header {
   padding: 22% 11%;
-  background-image: url("../Image/all-black-working-setup-diary-and-iphone-picjumbo-com.jpg");
+  background-image: url("../Image/modern-laptop-and-smartphone-on-black-desk-picjumbo-com.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -69,13 +67,14 @@ section {
 }
 @media (max-width: 767px) {
   #header {
-    padding: 50% 5%;
+    padding: 33% 11%;
+    background-image: url("../Image/modern-laptop-and-smartphone-on-black-desk-picjumbo-com.jpg");
   }
   .headerContent {
     background-color: #d6d6d6;
     opacity: 0.5;
-    border-radius: 10%;
-    font-size: 1.5rem;
+    border-radius: 40%;
+    font-size: 1rem;
   }
   .headerContent h2 {
     font-weight: 500;
