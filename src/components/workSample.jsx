@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../common/footer/footer';
+import Footer from './footer';
 import Tindog from "../Image/tindog.jpg";
 import WorkOut from "../Image/WorkOut.jpg"
 import Html from "../Image/html-sample.jpg"

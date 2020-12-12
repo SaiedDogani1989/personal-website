@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Footer from '../common/footer/footer';
+import Footer from './footer';
 import Html from "../Image/html.jpg"
 import JavaScript from "../Image/javaScript.jpg"
 import Css from "../Image/css3.jpg"

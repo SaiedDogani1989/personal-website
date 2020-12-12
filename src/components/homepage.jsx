@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../common/footer/footer';
+import Footer from './footer';
 import Profile from '../common/profile';
 import "../css/homeStyle.css"
 import Navbar from './navbar';

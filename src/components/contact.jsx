@@ -1,9 +1,9 @@
 import React, { } from 'react';
 import Joi from 'joi-browser'
-import "../css/contact.css"
 import Form from './contact/form';
-import Footer from '../common/footer/footer';
 import Navbar from './navbar';
+import Footer from './footer';
+import "../css/contact.css"
 
 class Contact extends Form {
     state = {
