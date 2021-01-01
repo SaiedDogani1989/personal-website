@@ -1,3 +1,7 @@
+ul {
+  list-style-type: none;
+}
+
 .skill-img {
   width: 80%;
 }
@@ -22,9 +26,17 @@
   margin-top: 20px;
 }
 .workSample-link {
-  color: red;
+  color: rgb(92, 84, 84);
   text-decoration: underline;
   background-color: transparent;
+}
+.workSample-link:visited{
+  color: rgb(156, 54, 165);
+} 
+
+
+.center-link{
+  text-align: center;
 }
 
 @media (max-width: 767px) {

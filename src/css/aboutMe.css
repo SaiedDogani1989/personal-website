@@ -3,11 +3,33 @@
 }
 
 .certificate-img {
-  width: 50%;
-  margin: 20px 0px 30px;
+  width: 70%;
+  margin: 10px 0px;
 }
 .heading {
   text-align: center;
   color: red;
   padding: 170px;
+}
+
+.justify-paragraph {
+  text-align: justify;
+}
+
+.image-hide {
+  display: none;
+}
+.image-center {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .image-hide {
+    display: block;
+    text-align: center;
+
+  }
+  .image-center{
+    display: none;
+  }
 }
