@@ -11,7 +11,7 @@ import Navbar from './navbar';
 const WorkSample = () => {
   return (
     <React.Fragment>
-      <Navbar   defaultActiveKey="/workSample"/>
+      <Navbar />
       <div className="title bg-light">
         <h2>Work Sample</h2>
       </div>

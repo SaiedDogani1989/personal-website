@@ -3,9 +3,12 @@ import "font-awesome/css/font-awesome.css"
 import "../css/footer.css"
 
 const Footer = () => {
+const currentYear = new Date();
+const year = currentYear.getFullYear()
+
     return (
         <React.Fragment>
-            <footer id="footer" class="container-fluid footer-container">
+            <footer class="container-fluid footer-container">
                 <a className="footer-link" href="http://www.linkedin.com/in/saeiddogani">
                     <i className="fab fa-linkedin fa-2x"></i>
                 </a>
@@ -16,7 +19,7 @@ const Footer = () => {
                     <i className="fab fa-instagram fa-2x"></i>
                 </a>
                 <hr />
-                <p>© 2020 Saeid Dogani.</p>
+                <p>Saeid Dogani © {year}.</p>
             </footer>
         </React.Fragment>
     );

@@ -7,16 +7,25 @@ a {
   text-decoration: none;
 }
 
+nav {
+  box-shadow: 0 0 10px 0 rgba(7, 7, 7, 0.3);
+  padding: 7% 5%;
+}
+
+
 .navbar {
   background-color: #635858;
   opacity: 0.5;
+  padding: 2% 5%;
+  font-size: large;
+
 }
 .nav-item {
   margin-left: 30px;
 }
 
 /* ///////////////////header////////////////////// */
-#header {
+header {
   padding: 22% 11%;
   background-image: url("../Image/modern-laptop-and-smartphone-on-black-desk-picjumbo-com.jpg");
   background-repeat: no-repeat;

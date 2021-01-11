@@ -1,9 +1,7 @@
-#footer {
+footer {
   background: rgb(129, 127, 127);
   padding: 7% 5%;
-}
-
-.footer-container {
+  bottom: 0;
   text-align: center;
   color: #fff;
 }
