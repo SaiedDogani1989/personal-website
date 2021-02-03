@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Footer from './footer';
 import Html from "../Image/html.jpg"
 import JavaScript from "../Image/javaScript.jpg"
@@ -15,7 +15,7 @@ const AboutMe  = () => {
             <div className="row">
                 <div className="col-lg-6">
                     <div className="content">
-                        <h3 className="mt-3">About me</h3>
+                        <h3 className="mt-3">About Me</h3>
                         <p className="justify-paragraph">I am an ambitious Frontend Web Developer and I am 31 years old. My carrier started
                         from December 2019 , I have bachelor degree in telecommunication and associate's degree in
                         ICT, at first I started to learn HTML and CSS and great my first web page and I call that
@@ -34,8 +34,9 @@ const AboutMe  = () => {
                      <div className="image-hide">
                         <img src={CERTIFICATE} alt="CERTIFICATE" className="certificate-img"></img>
                     </div>
-                        <h3 className="mt-3">About my personality</h3>
-                        <p className="justify-paragraph">I have warm personality and I like doing group works and helping teammates, however I can work on my own.
+                        <h3 className="mt-3">My Personality & My Goals </h3>
+                        <p className="justify-paragraph">I have warm personality and I am energetic and friendly and mature
+                        I like doing group works and helping teammates, however I become nervous in some situation. 
                         I am eager to develop my knowledge and learn new skills and expand my knowledge, I am passionate about coding
                         and creating. and because of my eight year experience in my family business in construction I think
                     I have good taste in designing and user experience</p>
@@ -47,7 +48,7 @@ const AboutMe  = () => {
 
                     </div>
                     <div>
-                        <h3 className="mt-3">My skills and abilities</h3>
+                        <h3 className="mt-3">My Skills & Abilities</h3>
                         <ul>
                             <li>HTML5</li>
                             <li>CSS3</li>
@@ -80,7 +81,7 @@ const AboutMe  = () => {
                     </div>
                     </div>
                     <div className="content mt-3">
-                        <h3>Work experience</h3>
+                        <h3>Work Experience</h3>
                         <ul>
                             <li className="font-weight-bold">Real Estate Developer| Family Business| 2014-2020| Mashhad, Iran</li>
                             <p>Investor, builder and designer of residential apartments</p>

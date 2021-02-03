@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 
-const Navbar = () => {
-    return (
+class Navbar extends Component {
 
+    render() {
+
+        return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-center">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <Link className="navbar-brand" to="/personal-website/"><i class="fas fa-home"></i></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -28,10 +30,9 @@ const Navbar = () => {
                 </div>
             </nav>
         </div>
-
-      );
+        );
+    }
 }
- 
 
 export default Navbar;
 
