@@ -1,0 +1,95 @@
+html body img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ///////////////////////////////////////// Nav ///////////////// */
+#navbar {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  z-index: 999;
+  box-sizing: border-box;
+}
+.navBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #428beb;
+  opacity: 1;
+}
+.main {
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0px 60px;
+  padding: 10px 0;
+}
+.logo {
+  position: relative;
+  height: 60px;
+  max-height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  width: 25%;
+}
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  transition: all 0.5s ease;
+}
+.nav {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  width: 75%;
+  text-align: right;
+  height: 36px;
+}
+.items {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  padding-left: 4px;
+  height: 36px;
+  width: 75%;
+  text-align: right;
+}
+
+#navbar .navbar-content .nav .items .item {
+  vertical-align: middle;
+  font-size: 14px;
+  padding-left: 4px;
+  height: 30px;
+  width: 277px;
+  display: inline-block;
+}
+.items .item a {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.blog-call-to-action {
+  line-height: 22px;
+  display: inline-block;
+}
+.button {
+  color: #2d4b7b;
+}
+
+.circularMenu1 {
+  display: none;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+@media (max-width: 991px) {
+ .firsNavbar {
+   display: none;
+ }
+}

@@ -1,21 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 
+function Input(props) {
 
-const Input = ({ name, label, value, onChange, type, error }) => {
     return (
         <div className="form-group">
-            <label htmlFor={name}>{label}</label>
             <input
-                value={value}
-                onChange={onChange}
-                name={name}
-                id={name}
-                type={type}
+                onChange={props.onChange}
                 className="form-control"
+                value={props.value}
+                name={props.name}
+                type={props.type}
+                placeholder={props.placeholder}
             />
-            {error && <div className="alert alert-danger" >{error}</div>}
         </div>
-    );
+    )
 }
 
 export default Input;

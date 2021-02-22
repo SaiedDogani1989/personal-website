@@ -1,0 +1,17 @@
+.workSample-image {
+    width: 80%;
+}
+.title-name{
+    border-radius: 10px;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    background-color:#428beb ;
+}
+
+@media(max-width:780px){
+    .center-link{
+        text-align: center;
+    }
+}

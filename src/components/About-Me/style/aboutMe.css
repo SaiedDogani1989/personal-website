@@ -1,0 +1,43 @@
+.contentt{
+  margin-top: 100px;
+}
+
+.contentt p:first-child {
+  margin-top: 20px;
+}
+
+.certificate-img {
+  width: 70%;
+  margin-top: 23px;
+}
+.heading {
+  text-align: center;
+  color: red;
+  padding: 170px;
+}
+
+.justify-paragraph {
+  text-align: justify;
+}
+.images{
+  margin-top: 100px;
+}
+
+.image-hide {
+  display: none;
+}
+.image-center {
+  text-align: center;
+  margin-top: 25px;
+}
+
+@media (max-width: 991px) {
+  .image-hide {
+    display: block;
+    text-align: center;
+
+  }
+  .image-center{
+    display: none;
+  }
+}
