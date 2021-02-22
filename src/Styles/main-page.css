@@ -139,6 +139,10 @@ p {
     width: 100%;
     height: 100vh;
   }
+  .mask {
+    min-width: 100%;
+    min-height: 120%;
+  }
   .main-image{
     width: 30px;
 
@@ -154,10 +158,10 @@ p {
 
   }
   .main-image{
-    width: 200%;
-    height:150px;
+    width: 100%;
+    height:180px;
     border-radius: 100%;
-    border: 1px solid rgb(18, 22, 243);
+    border: 1px solid rgb(7, 7, 26);
     margin-top: 8px;
   }
   .main-wrap .text {
