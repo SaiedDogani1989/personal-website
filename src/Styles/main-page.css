@@ -28,7 +28,7 @@ p {
   height: 100vh;
   overflow: hidden;
 }
-#frontpage #welcome-screen .video {
+#frontPage #welcome-screen .video {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -126,19 +126,39 @@ p {
   font-size: 15px;
   width: 33.33333%;
 }
+.side-image1{
+  display: none; 
+ }
 .main-image{
   width: 200%;
   height:430px ;
 }
 
 @media(max-width:900px){
+  .section:nth-last-of-type(odd) {
+    width: 100%;
+    height: 100vh;
+  }
   .main-image{
     width: 30px;
 
   }
+  .slogan{
+    width: 100%;
+  }
   .side-image {
-    width:100;
+   display: none;
+  }
+  .side-image1{
+   display: block;
 
+  }
+  .main-image{
+    width: 200%;
+    height:150px;
+    border-radius: 100%;
+    border: 1px solid rgb(18, 22, 243);
+    margin-top: 8px;
   }
   .main-wrap .text {
     text-align: left;

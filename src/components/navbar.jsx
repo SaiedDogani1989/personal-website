@@ -17,7 +17,7 @@ function Navbar() {
                     </div>
                     <div className="nav">
                         <div className="items">
-
+{/* nav section  */}
                             {navbar.map((nav) => {
                                 return <Navigation
                                     className={nav.className}

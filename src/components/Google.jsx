@@ -14,6 +14,9 @@ function Content() {
             </video>
             <div className="mask-more">&nbsp;</div>
             <div className="main-wrap">
+            <div className="side-image1">
+                    <img className="main-image" src={Google} />
+                </div>
                 <div className="text">
                     <ScrollAnimation animateIn="fadeIn">
                         <h2>Google</h2>

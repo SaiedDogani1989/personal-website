@@ -30,3 +30,8 @@ footer {
   padding: 20% 9%;
 }
 }
+@media (max-width: 480px) {
+footer {
+  padding: 28% 9%;
+}
+}

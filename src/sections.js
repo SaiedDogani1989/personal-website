@@ -3,12 +3,6 @@ import SaeidImge from "./Image/WhatsApp_Image-removebg-preview.png"
 
 
 const notes = [
-    // {
-    //     key: 1,
-    //     header: "Google",
-    //     content1: "Google was founded in September 1998 by Larry Page and Sergey Brin, which has become the most used web-based search engine.",
-    //     content2: "Larry Page and Sergey Brin, developed a search algorithm at first known as BackRub in 1996,with the help of Scott Hassan and Alan Steremberg.The company launched Google News in 2002, Gmail in 2004, Google Maps in 2005,Google Chrome in 2008. The name Google is a misspelling of Googol, the number 1 followed by 100 zeros,which was picked to signify that the search engine was intended to provide large quantities of information.",
-    // },
     {
         key: 2,
         header: "Web Application",

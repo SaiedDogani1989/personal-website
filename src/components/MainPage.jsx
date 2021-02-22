@@ -15,7 +15,7 @@ function MainPage() {
 
     return (
         <React.Fragment>
-            <div id="frontpage">
+            <div id="frontPage">
                 <Header />
                 <Content />
                 {notes.map((e) => {

@@ -11,6 +11,9 @@ function Note(props) {
         <section id="information" className="section">
             <div className="mask-more">&nbsp;</div>
             <div className="main-wrap">
+            <div className="side-image1">
+                    <img className="main-image" src={props.image} />
+                </div>
                 <div className="text">
                     <ScrollAnimation animateIn="fadeIn" >
                         <h2>{props.heading}</h2>
