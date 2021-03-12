@@ -1,8 +1,6 @@
 import React from 'react';
-import Footer from '../Footer';
-import Navbar from '../NavBar';
 import HoleApp from './NoteApp/HoleApp';
-import Example from './validateForm';
+// import Example from './validateForm';
 import ExternalWeb from './external-wesite/ExtertalWeb';
 function WorkSample() {
     return (
@@ -24,7 +22,7 @@ function WorkSample() {
             <div className="container-fluid bg-light workSample-url">
                 <ExternalWeb />
                 {/*from validation */}
-                <Example />
+                {/* <Example /> */}
             </div>
         </div>
     )

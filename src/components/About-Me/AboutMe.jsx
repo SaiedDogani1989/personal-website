@@ -1,16 +1,13 @@
 import React from 'react';
-import Footer from '../Footer';
-import Html from "./img/html.jpg"
 import JavaScript from "./img/javaScript.jpg"
 import Css from "./img/css3.jpg"
+import Html from "./img/html.jpg"
 import CERTIFICATE from "./img/CERTIFICATE.jpeg"
-import "./style/aboutMe.css"
-import Navbar from '../NavBar';
 import Course from "./Course";
 import Experience from "./WorkExperience";
 import Skill from './Skills';
 import Personality from './Personality';
-import { Zoom } from '@material-ui/core';
+import "./style/aboutMe.css"
 
 const AboutMe = () => {
     return (
@@ -21,7 +18,7 @@ const AboutMe = () => {
                          <Personality />
                         <Skill />
                         <Course />
-                        {/* <Experience /> */}
+                        <Experience />
                     </div>
                     <div className="col-lg-6  images">
                         <div className="image-center">

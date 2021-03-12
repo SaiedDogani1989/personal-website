@@ -27,7 +27,7 @@ const notes = [
     {
         key: 5,
         header: "About Me",
-        content1: "My name is Saeid Dogani, and I am originally from Iran I was born on May-1989 in Mashhad. Mashhad is one of the big cities of Iran with around 4 million population in north-east of Iran. I live in Vancouver, Canada now, a beautiful city with a nice weather and a lot of rain. I've been living here since Dec-30-2020.",
+        content1: "My name is Saeid Dogani, and I am originally from Iran I was born on May-1989 in Mashhad. Mashhad is one of the big cities of Iran with around 4 million population in north-east of Iran. I live in Vancouver, Canada now, a beautiful city with a nice weather.",
         content2: "I am a Frontend Web Developer, I was graduated from Khavaran University in 2013. I have bachelor degree in Telecommunication and associate degree in ICT from Khayyam University",
         img: SaeidImge 
     },

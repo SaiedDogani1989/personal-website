@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import Side from './Contact-text';
 import Input from './input';
-import Footer from "../Footer"
-import Navbar from "../NavBar"
 import "./style/contact.css"
 
 function Contact() {
@@ -31,6 +29,10 @@ function Contact() {
     }
 
     const [isInputFill, SetInputFill] = useState(false)
+
+    function onSubmit() {
+        SetInputFill(true)
+    }
 
     function onSubmit() {
         SetInputFill(true)
