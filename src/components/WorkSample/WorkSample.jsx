@@ -11,10 +11,7 @@ function WorkSample() {
             <div className="container col-md-12">
                 <div>&nbsp;</div>
                 <div className="textArea">
-                <h3 className="title-name">
-                Comment Section:
-                </h3>
-                    <HoleApp />
+                    {/* <HoleApp /> */}
                 </div>
             </div>
 
