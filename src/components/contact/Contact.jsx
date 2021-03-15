@@ -1,32 +1,8 @@
 import React, { useState } from 'react';
 import Side from './Contact-text';
-import Input from './input';
 import "./style/contact.css"
 
 function Contact() {
-
-    const [inputValue, setInput] = useState({
-        fullName: "",
-        email: ""
-    })
-
-    function handleChange(event) {
-        const { name, value } = event.target;
-        setInput((preValue) => {
-            if (name === "fullName") {
-                return {
-                    ...preValue,
-                    fullName: value
-                }
-            }
-            else if (name === "email") {
-                return {
-                    ...preValue,
-                    email: value
-                }
-            }
-        })
-    }
 
     const [isInputFill, SetInputFill] = useState(false)
 
@@ -46,13 +22,10 @@ function Contact() {
                     <Side />
                     <div className="col-lg-8 col-md-8 middle">
                         <form action="mailto:saeid.dogani1989@gmail.com" method="POST" encType="multipart/form-data">
-                            <Input onChange={handleChange} value={inputValue.fullName} name="fullName" type="text" placeholder="Full Name" />
-                            <Input onChange={handleChange} value={inputValue.email} name="email" type="email" placeholder="Email" />
                             <button
                                 onClick={onSubmit}
-                                disabled={(inputValue.fullName === "" || inputValue.email === "") && "disabled"}
-                                className="btn btn-primary mt-3">
-                                Submit
+                                className="btn btn-primary btn-contact mt-3">
+                                Send me an email
                             </button>
                         </form>
                     </div>

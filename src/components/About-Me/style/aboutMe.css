@@ -1,5 +1,10 @@
+.checked {
+  color: orange;
+}
+
+
 .contentt{
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .contentt p:first-child {

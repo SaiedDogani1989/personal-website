@@ -8,7 +8,7 @@ function Personality() {
     return (
         <div className="contentt">
 
-            <h3 className="mt-5">About Me</h3>
+            <h3 className="mt-5 title-name">About Me</h3>
             <p className="justify-paragraph">
                 I am a hard working and dedicated front-end developer
                 I like to write semantic, cross browser compatible code by hand that is re-useable,
